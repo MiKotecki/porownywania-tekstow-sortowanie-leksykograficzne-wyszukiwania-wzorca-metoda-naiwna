@@ -1,0 +1,16 @@
+sortowanie leksykograficzne:
+(sortowanie alfabetyczne), sortowanie wg porządku leksykograficznego
+
+Sortowanie pozycyjne służy do sortowania zbiorów danych według porządku leksykograficznego
+
+Porządek leksykograficzny w Pythonie uzyskuje się za pomocą funkcji sort() i sorted() . Funkcja sort() sortuje elementy danych w kolejności leksykograficznej poprzez wykonywanie operacji na liście wejściowej. Funkcja sorted() sortuje elementy danych w kolejności leksykograficznej poprzez replikowanie listy wejściowej i zachowywanie jej w oryginalnej postaci.
+
+>porządek leksykograficzny
+to sposób porządkowania elementów zbioru analogiczny do kolejności alfabetycznej
+
+>sortowanie pozycyjne słów (radix sort)
+
+>sorter()
+
+
+
