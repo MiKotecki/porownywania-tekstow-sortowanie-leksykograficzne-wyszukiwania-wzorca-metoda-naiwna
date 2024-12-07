@@ -20,6 +20,13 @@ for i in range(n - m + 1):  # iteracja po możliwych pozycjach w tekście
         elif j == m - 1:  # dopasowanie znalezione
             return True
 ```
+Weźmy tekst "INFORMACJA" i wyszukajmy tekst "MA" kolejno należy porównywać następujące fragmenty:
+
+![image](https://github.com/user-attachments/assets/322fa00c-c356-48db-ac88-2ac8c7466055)
+
+
+![image](https://github.com/user-attachments/assets/e9bc6f1a-c38a-4f92-af4f-eabb89bd110c)
+
 
 Więcej szczegółów znajduje się w pliku [wyszukiwanie_wzorca_1.py](wyszukiwanie_wzorca_1.py) oraz [wyszukiwanie_wzorca_2.py](wyszukiwanie_wzorca_2.py).
 
@@ -77,3 +84,8 @@ else:
 Dzięki temu kod jest prostszy i bardziej przejrzysty.
 
 Więcej szczegółów znajduje się w pliku [porownywanie_tektow.py](porownywanie_tektow.py).
+
+Źródła wiedzy:
+https://mattomatti.com/pl/a0011?plang=py#elcode1
+https://www.algorytm.edu.pl/algorytmy-w-python/wyszukiwanie-wzorca-w-tekscie-python
+https://pl.wikipedia.org/wiki/Sortowanie_leksykograficzne
