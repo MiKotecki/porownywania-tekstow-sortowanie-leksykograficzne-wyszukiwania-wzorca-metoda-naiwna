@@ -76,4 +76,4 @@ else:
 
 Dzięki temu kod jest prostszy i bardziej przejrzysty.
 
-Więcej szczegółów znajduje się w pliku [porownywanie_tekstow.py](porownywanie_tekstow.py).
+Więcej szczegółów znajduje się w pliku [porownywanie_tektow.py](porownywanie_tektow.py).
