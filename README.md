@@ -69,6 +69,8 @@ print(posortowane_slowa)
 
 Więcej szczegółów znajduje się w pliku [sortowanie_leksykograficzne.py](sortowanie_leksykograficzne.py).
 
+**Zad.3** Korzystająć z pliku [sortowanie_leksykograficzne.py](sortowanie_leksykograficzne.py) posortuj według kolejności leksykograficznej podane
+poniżej nazwiska: Kowalski, Nowak, Wiśniewski, Wójcik, Kamiński, Lewandowski, Zieliński, Szymański, Woźniak, Dąbrowski, Jankowski, Kwiatkowski, Mazur, Król, Pawlak, Zawisza, Adamczyk, Grabowski, Kaczmarek, Skowroński
 
 
 
@@ -101,7 +103,7 @@ Dzięki temu kod jest prostszy i bardziej przejrzysty.
 
 Więcej szczegółów znajduje się w pliku [porownywanie_tektow.py](porownywanie_tektow.py).
 
-**Zad.3.** Uczeń na kartkówce z angielskiego podał poniższe odpowiedzi: gren, yellow, pink, read, orenge, blue.
+**Zad.4.** Uczeń na kartkówce z angielskiego podał poniższe odpowiedzi: gren, yellow, pink, read, orenge, blue.
 Oblicz ile procent uzyskał, wiedząc, że klucz odpowiedzi wyglądał tak: green, yellow, pink, red, orange, blue.
 Do tego zadania użyj algorytmu z pliku [porownywanie_tektow.py](porownywanie_tektow.py)
 
