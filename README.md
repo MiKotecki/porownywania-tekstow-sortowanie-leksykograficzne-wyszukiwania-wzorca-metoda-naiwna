@@ -22,7 +22,8 @@ for i in range(n - m + 1):  # iteracja po możliwych pozycjach w tekście
 ```
 Weźmy tekst "INFORMACJA" i wyszukajmy tekst "MA" kolejno należy porównywać następujące fragmenty:
 
-![image](https://github.com/user-attachments/assets/8b9eab09-2802-4f24-8e6f-bd2cf3ed56e6)
+<img src="https://github.com/user-attachments/assets/8b9eab09-2802-4f24-8e6f-bd2cf3ed56e6" width="300">
+
 
 
 Przeanalizujmy przykład dla tekstu "bababac", w którym chcemy sprawdzić, czy występuje fraza "bac".
@@ -69,7 +70,8 @@ print(posortowane_slowa)
 ```
 
 ***Trochę więcej o funkcji sorted()***
-![image](https://github.com/user-attachments/assets/5d93f284-c6a2-4db7-8ae7-a441aedff9d8)
+
+<img src="https://github.com/user-attachments/assets/5d93f284-c6a2-4db7-8ae7-a441aedff9d8" width="800">
 
 ```python
 a = ("h", "b", "a", "c", "f", "d", "e", "g")
