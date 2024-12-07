@@ -101,6 +101,10 @@ Dzięki temu kod jest prostszy i bardziej przejrzysty.
 
 Więcej szczegółów znajduje się w pliku [porownywanie_tektow.py](porownywanie_tektow.py).
 
+**Zad.3.** Uczeń na kartkówce z angielskiego podał poniższe odpowiedzi: gren, yellow, pink, read, orenge, blue.
+Oblicz ile procent uzyskał, wiedząc, że klucz odpowiedzi wyglądał tak: green, yellow, pink, red, orange, blue.
+Do tego zadania użyj algorytmu z pliku [porownywanie_tektow.py](porownywanie_tektow.py)
+
 Źródła wiedzy:
 https://mattomatti.com/pl/a0011?plang=py#elcode1
 https://www.algorytm.edu.pl/algorytmy-w-python/wyszukiwanie-wzorca-w-tekscie-python
