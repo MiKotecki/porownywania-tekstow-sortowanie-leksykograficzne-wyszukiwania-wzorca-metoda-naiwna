@@ -22,7 +22,8 @@ for i in range(n - m + 1):  # iteracja po możliwych pozycjach w tekście
 ```
 Weźmy tekst "INFORMACJA" i wyszukajmy tekst "MA" kolejno należy porównywać następujące fragmenty:
 
-![image](https://github.com/user-attachments/assets/322fa00c-c356-48db-ac88-2ac8c7466055)
+![image](https://github.com/user-attachments/assets/8b9eab09-2802-4f24-8e6f-bd2cf3ed56e6)
+
 
 Przeanalizujmy przykład dla tekstu "bababac", w którym chcemy sprawdzić, czy występuje fraza "bac".
 
