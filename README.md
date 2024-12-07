@@ -35,6 +35,12 @@ Algorytm będzie sprawdzał, czy pierwsza litera w tekście jest taka sama jak p
 
 Więcej szczegółów znajduje się w pliku [wyszukiwanie_wzorca_1.py](wyszukiwanie_wzorca_1.py) oraz [wyszukiwanie_wzorca_2.py](wyszukiwanie_wzorca_2.py).
 
+**Zadanie 1:** Sprawdż czy w poniższym tekście występują słowa: boa, historią, niepowodzenia, programowanie, fizyka:
+Dorośli poradzili mi, żebym przestał się zajmować rysowaniem otwartych albo zamkniętych węży boa i zainteresował się raczej geografią, historią, rachunkami i gramatyką. Tym sposobem zarzuciłem w wieku sześciu lat wspaniałą karierę malarską. Zniechęciło mnie niepowodzenie mojego rysunku numer 1 i rysunku numer 2. Dorośli nigdy niczego sami nie potrafią zrozumieć i wciąż trzeba im coś objaśniać, co dla dzieci jest bardzo męczące.
+
+**Zadanie 2.** Zmień algorytm z pliku [wyszukiwanie_wzorca_1.py](wyszukiwanie_wzorca_1.py) w taki sposób, aby sprawdzał zgodność wzorca z tekstem, ignorując różnicę między małymi a dużymi literami. Następnie sprawdź czy kod działa na podstawie tekstu z zad.1 szukając słowa dorośli.
+
+
 ### 2. Sortowanie leksykograficzne
 
 Sortowanie leksykograficzne porządkuje słowa zgodnie z ich alfabetyczną kolejnością. W tym przypadku zaimplementowano algorytm sortowania bąbelkowego, który iteruje po liście i zamienia miejscami elementy, które są w złej kolejności.
