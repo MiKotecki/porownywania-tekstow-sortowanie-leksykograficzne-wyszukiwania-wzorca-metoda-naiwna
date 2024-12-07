@@ -24,9 +24,13 @@ Weźmy tekst "INFORMACJA" i wyszukajmy tekst "MA" kolejno należy porównywać n
 
 ![image](https://github.com/user-attachments/assets/322fa00c-c356-48db-ac88-2ac8c7466055)
 
+Przeanalizujmy przykład dla tekstu "bababac", w którym chcemy sprawdzić, czy występuje fraza "bac".
 
-![image](https://github.com/user-attachments/assets/e9bc6f1a-c38a-4f92-af4f-eabb89bd110c)
+![image](https://github.com/user-attachments/assets/faaf0af3-7e36-499b-b2fd-0497f797cc83)
 
+Algorytm będzie sprawdzał, czy pierwsza litera w tekście jest taka sama jak pierwsza litera we wzorcu, jeśli jest zgodność, to sprawdzamy zgodność kolejnych liter. Jeśli po drodze napotkamy niezgodność, to zabawę zaczynamy od nowa porównując odpowiednie litery ze wzroca ze znakami z tekstu począwszy od kolejnej litery:
+
+![image](https://github.com/user-attachments/assets/45f0c123-df87-48e1-b570-3206469497d5)
 
 Więcej szczegółów znajduje się w pliku [wyszukiwanie_wzorca_1.py](wyszukiwanie_wzorca_1.py) oraz [wyszukiwanie_wzorca_2.py](wyszukiwanie_wzorca_2.py).
 
