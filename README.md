@@ -68,6 +68,35 @@ posortowane_slowa = sorted(slowa)
 print(posortowane_slowa)
 ```
 
+***Trochę więcej o funkcji sorted()***
+![image](https://github.com/user-attachments/assets/5d93f284-c6a2-4db7-8ae7-a441aedff9d8)
+
+```python
+a = ("h", "b", "a", "c", "f", "d", "e", "g")
+x = sorted(a, reverse=True)
+print(x)
+
+['h', 'g', 'f', 'e', 'd', 'c', 'b', 'a']
+```
+```python
+a = ("Jenifer", "Sally", "Jane")
+x = sorted(a, key=len)
+print(x)
+
+['Jane', 'Sally', 'Jenifer']
+```
+```python
+def myfunc(n):
+  return abs(10-n) # absolute - wartość bezwzględna
+
+a = (5, 3, 1, 11, 2, 12, 17)
+x = sorted(a, key=myfunc)
+print(x)
+
+[11, 12, 5, 3, 17, 2, 1]
+```
+
+
 Więcej szczegółów znajduje się w pliku [sortowanie_leksykograficzne.py](sortowanie_leksykograficzne.py).
 
 **Zad.3** Korzystająć z pliku [sortowanie_leksykograficzne.py](sortowanie_leksykograficzne.py) posortuj według kolejności leksykograficznej podane
