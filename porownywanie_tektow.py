@@ -22,7 +22,8 @@ for i in range(len(lista1)):
     else:
         print(f"Wyraz {lista1[i]} nie jest taki sam jak {lista2[i]}")
 
-# Nie trzeba rowniez tworzyc funkcji, np.
+
+# Nie trzeba również tworzyć funkcji, wystarczy np.
 # if wyraz1 == wyraz2:
 #   ...
 #if lista1[i] == lista2[i]:
