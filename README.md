@@ -41,6 +41,8 @@ Dorośli poradzili mi, żebym przestał się zajmować rysowaniem otwartych albo
 **Zadanie 2.** Zmień algorytm z pliku [wyszukiwanie_wzorca_1.py](wyszukiwanie_wzorca_1.py) w taki sposób, aby sprawdzał zgodność wzorca z tekstem, ignorując różnicę między małymi a dużymi literami. Następnie sprawdź czy kod działa na podstawie tekstu z zad.1 szukając słowa dorośli.
 
 
+
+
 ### 2. Sortowanie leksykograficzne
 
 Sortowanie leksykograficzne porządkuje słowa zgodnie z ich alfabetyczną kolejnością. W tym przypadku zaimplementowano algorytm sortowania bąbelkowego, który iteruje po liście i zamienia miejscami elementy, które są w złej kolejności.
@@ -66,6 +68,9 @@ print(posortowane_slowa)
 ```
 
 Więcej szczegółów znajduje się w pliku [sortowanie_leksykograficzne.py](sortowanie_leksykograficzne.py).
+
+
+
 
 ### 3. Porównywanie tekstów
 
