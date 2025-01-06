@@ -62,6 +62,76 @@ for i in range(n):  # zewnętrzna pętla, iteracja po wszystkich elementach list
             slowa[j], slowa[j + 1] = slowa[j + 1], slowa[j]
 ```
 
+### 2.1. Porównywanie ciągów znaków w Pythonie
+
+W Pythonie porównywanie dwóch słów za pomocą operatorów takich jak > lub < odbywa się na podstawie kolejności leksykograficznej i wykorzystuje kody Unicode dla znaków. Poniżej znajdziesz szczegóły dotyczące tej mechaniki.
+
+**a) Zasady porównywania ciągów znaków**
+Porównanie znak po znaku: Python analizuje ciągi znaków od lewej do prawej. Jeśli znajdzie różnicę, wynik porównania opiera się na różnicy kodów Unicode pierwszego różniącego się znaku.
+Długość ciągu: Jeśli jeden ciąg jest prefiksem drugiego (np. "kot" i "kotek"), krótszy ciąg uznawany jest za "mniejszy".
+Wielkość liter ma znaczenie: Wielkie litery są mniejsze niż małe, np. "A" < "a".
+Przykłady:
+```python
+print("apple" > "banana")  # False, bo "a" < "b"
+print("cat" > "car")       # True, bo "t" > "r"
+print("apple" > "Apple")   # True, bo "a" > "A"
+print("dog" > "doge")      # False, bo "dog" jest krótsze niż "doge"
+```
+
+***b) Unicode vs ASCII***
+Python używa Unicode, a nie ASCII, ponieważ Unicode jest bardziej wszechstronny i nowoczesny.
+
+ASCII:
+Obsługuje tylko 128 znaków (od 0 do 127), co wystarcza dla podstawowego alfabetu angielskiego, cyfr i kilku symboli.
+Przykłady kodów ASCII:
+'A' → 65
+'a' → 97
+
+Unicode:
+Obsługuje ponad 1,1 miliona znaków, w tym:
+Znaki z różnych języków (np. polskie: ą, ć, ł).
+Emojis (np. 😊, 🚀).
+Symbole matematyczne i specjalne.
+Jest zgodny z ASCII (pierwsze 128 znaków Unicode to dokładnie te same znaki, co w ASCII).
+
+Przykład porównania w Unicode:
+
+```python
+print("ą" > "z")  # True, bo Unicode dla 'ą' (261) > Unicode dla 'z' (122)
+```
+***c) Dlaczego Python używa Unicode?***
+Globalny standard: Unicode obsługuje znaki z różnych języków i kultur, co jest kluczowe w globalnym środowisku.
+Zgodność z ASCII: Unicode jest nadzbiorem ASCII, co zapewnia kompatybilność w podstawowych przypadkach.
+Domyślna implementacja w Pythonie 3: Wszystkie ciągi znaków (str) w Pythonie 3 są kodowane w Unicode.
+
+***d) Sprawdzenie kodów Unicode - Funkcje ord() i chr() w Pythonie***
+
+Funkcje ord() i chr() pozwalają na konwersję między znakami a ich kodami Unicode:
+ord (skrót od "ordinal"): Zwraca kod Unicode danego znaku.
+chr (skrót od "character"): Zwraca znak odpowiadający podanemu kodowi Unicode.
+Przykłady:
+```python
+# Sprawdzanie kodów Unicode:
+print(ord('a'))   # 97
+print(ord('A'))   # 65
+print(ord('ą'))   # 261
+print(ord('😊'))  # 128522
+
+# Zamiana kodu Unicode na znak:
+print(chr(97))    # 'a'
+print(chr(65))    # 'A'
+print(chr(261))   # 'ą'
+print(chr(128522))  # '😊'
+```
+**Zad.4.**
+Zobacz jakie znaki kryją się za tymi liczbami w Unicode:
+128511
+128405
+128701
+128169
+
+### 2.2. Funkcja sorted()
+
 Dodatkowo, Python oferuje wbudowaną funkcję `sorted()`, która ułatwia sortowanie listy słów w porządku leksykograficznym. Zamiast implementować algorytm sortowania samodzielnie, wystarczy użyć tej funkcji, jak pokazano poniżej:
 
 ```python
@@ -135,7 +205,7 @@ Dzięki temu kod jest prostszy i bardziej przejrzysty.
 
 Więcej szczegółów znajduje się w pliku [porownywanie_tektow.py](porownywanie_tektow.py).
 
-**Zad.4.** Uczeń na kartkówce z angielskiego podał poniższe odpowiedzi: gren, yellow, pink, read, orenge, blue.
+**Zad.5.** Uczeń na kartkówce z angielskiego podał poniższe odpowiedzi: gren, yellow, pink, read, orenge, blue.
 Oblicz ile procent uzyskał, wiedząc, że klucz odpowiedzi wyglądał tak: green, yellow, pink, red, orange, blue.
 Do tego zadania użyj algorytmu z pliku [porownywanie_tektow.py](porownywanie_tektow.py)
 
