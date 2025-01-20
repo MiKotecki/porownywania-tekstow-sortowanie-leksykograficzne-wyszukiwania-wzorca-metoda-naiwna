@@ -19,6 +19,7 @@ for i in range(n - m + 1):  # iteracja po możliwych pozycjach w tekście
             break
         elif j == m - 1:  # dopasowanie znalezione
             return True
+return False
 ```
 Weźmy tekst "INFORMACJA" i wyszukajmy tekst "MA" kolejno należy porównywać następujące fragmenty:
 
