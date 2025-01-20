@@ -126,16 +126,24 @@ print(chr(128522))  # '😊'
 ```
 **Zad.4.**
 Zobacz jakie znaki kryją się za tymi liczbami w Unicode:
+
 128511
+
 128405
+
 128701
+
 128169
 
 Inne gotowe przykłady do sprawdzenia:
+
 "\uFF61\u25D5\u203F\u25D5\uFF61"
+
 chr(65377) + chr(9675) + chr(8255) + chr(9675) + chr(65377)
 
+
 chr(128170) + chr(40) + chr(8226) + chr(8213) + chr(8226) + chr(41) + chr(128170)
+
 chr(40) + chr(3232) + chr(95) + chr(3232) + chr(41)
 
 
