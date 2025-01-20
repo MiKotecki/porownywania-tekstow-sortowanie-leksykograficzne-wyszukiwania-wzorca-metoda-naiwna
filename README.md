@@ -73,10 +73,10 @@ Długość ciągu: Jeśli jeden ciąg jest prefiksem drugiego (np. "kot" i "kote
 Wielkość liter ma znaczenie: Wielkie litery są mniejsze niż małe, np. "A" < "a".
 Przykłady:
 ```python
-print("apple" > "banana")  # False, bo "a" < "b"
-print("cat" > "car")       # True, bo "t" > "r"
-print("apple" > "Apple")   # True, bo "a" > "A"
-print("dog" > "doge")      # False, bo "dog" jest krótsze niż "doge"
+print("apple" > "banana")  # False, bo "a" (Unicode 97) < "b" (Unicode 98)
+print("cat" > "car")       # True, bo "t" (Unicode 116) > "r" (Unicode 114)
+print("apple" > "Apple")   # True, bo "a" (Unicode 97) > "A" (Unicode 65)
+print("dog" > "doge")      # False, bo "dog" jest krótsze niż "doge", brak znaku na czwartej pozycji
 ```
 
 ***b) Unicode vs ASCII***
